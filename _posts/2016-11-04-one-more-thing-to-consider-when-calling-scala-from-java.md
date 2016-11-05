@@ -40,4 +40,12 @@ public final class Hello {
 }
 ```
 
+Only `f3` ends up being a "normal" class member with the specified input/output type. The others return Scala's `Function1`, return type of which gets erased. So, it's not even `Integer` or `int` (actually it can't `int` because it's a type parameter). Which makes calling this code from Java especially ugly. Something like:
+
+```
+Integer v = (Integer)Hello.f1().apply("42”);
+```
+
 It's funny that I've run into this issue exactly when the compiler couldn't help: I've generated a function which was supposed to work as a handler for AWS Lambda, and probably it was called using reflection, hence I received no errors at all, the code just hadn't been executed.
+
+There is [scala-java8-compat](https://github.com/scala/scala-java8-compat) something to make thins
