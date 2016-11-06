@@ -71,9 +71,9 @@ Train station, future municipality building and another skypoint: La Place resta
 
 11.
 
-New huge 'In her Norderlicht' apartement complex (I live just next to it).
+New huge 'In het Norderlicht' apartement complex (I live just next to it).
 
-![In her Norderlicht](https://dl.dropboxusercontent.com/sh/sbrzxgiu0jnliqr/8de_pniCPj/Untitled%20Export/DSC_3304.jpg?token_hash=AAGpVhfDxqvOphfurKDhLTV2wCoPgpw_4rmkhlu--FxcMA)
+![In het Norderlicht](https://dl.dropboxusercontent.com/sh/sbrzxgiu0jnliqr/8de_pniCPj/Untitled%20Export/DSC_3304.jpg?token_hash=AAGpVhfDxqvOphfurKDhLTV2wCoPgpw_4rmkhlu--FxcMA)
 
 12.
 
