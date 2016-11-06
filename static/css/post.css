@@ -1,3 +1,7 @@
+.post p {
+  margin-top: 2em;
+}
+
 .post table{
     border-top:2px solid #777;
     border-bottom: 2px solid #777;
