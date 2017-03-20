@@ -38,7 +38,7 @@ dbcCommandFile := baseDirectory.value / "src/main/scala/mean.scala"
 
 the last settings points to a Scala script. Create it and let's start coding.
 
-## Step 2: Implement your job
+## Step 2: Write
 
 In contrast to notebooks, all your code will end up in one chunk, which may or may not be what you want, but as a developer you know a number of ways of stopping the execution where you need.
 
@@ -66,7 +66,7 @@ run(sc, SparkSession.builder().getOrCreate())
 
 IntelliJ will report the error in the last line, but the rest of the code will be valid.
 
-## Step 3: run
+## Step 3: Run
 
 Hit `dbcExecuteCommand` in sbt console, and you should see something like like this:
 ![Output in terminal](/static/img/2017-03-19-running-databricks-from-intellij/output.png)
