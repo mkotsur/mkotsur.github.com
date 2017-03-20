@@ -38,8 +38,6 @@ the last settings points to a Scala script. Create it and let's start coding.
 
 ## Step 2: Write
 
-In contrast to notebooks, all your code will end up in one chunk, which may or may not be what you want, but as a developer you know a number of ways of stopping the execution where you need.
-
 There are several things like `sc: SparkContext` that are globally available in Databricks. IntelliJ doesn't have a clue about those, so to have a nice autocompletion we need to do something about it. I've found this pattern pretty handy:
 
 ```scala
