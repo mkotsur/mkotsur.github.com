@@ -5,9 +5,7 @@ tags : [spark, databricks, scala, sbt]
 title: Writing in IntelliJ, running on Databricks
 ---
 
-So, Apache Spark is getting popular and I'm starting to get a hang of it. Our team uses [Databricks](https://databricks.com/), and I found it (and the whole concept of notebooks) great for sharing and visually presenting programs that deal with data. However, as a developer, I'm very much used to convenience of IntelliJ for writing, testing and refactoring the code.
-
-In my opinion, lack of 'native' support for autocompletion, error indication, simple refactoring, and other features that are considered a 'must have' in modern IDEs leads to slower learning, longer write-run-fix cycle and sloppier code. This post is intended to show how to have all these features while running jobs with Databricks.
+So, Apache Spark is getting popular and I'm starting to get a hang of it. Our team uses [Databricks](https://databricks.com/), and I found it (and the whole concept of notebooks) great for small things. However, when it comes to writing more complex programs, I'm very much used to convenience of IntelliJ for writing, testing and refactoring the code. Moreover, the new [Dataset[T]](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/Dataset.html) API allows you to rely on type safety and depend much less on constant re-runs.
 
 ## Step 1: Connect with Databricks
 
@@ -64,7 +62,7 @@ def run(sc: SparkContext, ss: SparkSession) = {
 run(sc, SparkSession.builder().getOrCreate())
 ```
 
-IntelliJ will report the error in the last line, but the rest of the code will be valid.
+The last line will contain an unresolved variable, but the rest of the code will be treated as valid.
 
 ## Step 3: Run
 
