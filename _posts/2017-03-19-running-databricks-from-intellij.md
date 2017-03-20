@@ -2,7 +2,7 @@
 layout: post
 category : Dev
 tags : [spark, databricks, scala, sbt]
-title: Running Databricks from IntelliJ
+title: Writing in IntelliJ, running on Databricks
 ---
 
 So, Apache Spark is getting popular and I'm starting to get a hang of it. Our team uses [Databricks](https://databricks.com/), and I found it (and the whole concept of notebooks) great for sharing and visually presenting programs that deal with data. However, as a developer, I'm very much used to convenience of IntelliJ for writing, testing and refactoring the code.
