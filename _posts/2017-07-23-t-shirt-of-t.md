@@ -8,7 +8,7 @@ title: T-shirt [T]
 Had a curious chat with a colleague after returning to work from ScalaSwarm conference.
 
 
-- *Me:* I brought a cool T-shirt
+- *Me:* I brought a cool T-shirt from Porto.
 - *Him:* Is it a Scala T-shirt?
 - *Me:* No, but it's still cool. T-shirt is an invariant type with regards to coolness.
 
