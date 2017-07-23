@@ -5,11 +5,11 @@ tags : [scala, type variance, humor]
 title: T-shirt [T]
 ---
 
-Had a nice chat with a colleague after returning to work from ScalaSwarm conference:
+Had a curious chat with a colleague after returning to work from ScalaSwarm conference.
 
-- Me: I brought a cool T-shirt
-- He: Is it a Scala T-shirt?
-- No, but it's still cool. T-shirt is an invariant type with regards to coolness.
+Me: I brought a cool T-shirt
+Him: Is it a Scala T-shirt?
+No, but it's still cool. T-shirt is an invariant type with regards to coolness.
 
 ![Output in terminal](/static/img/2017-07-23-t-shirt-of-t/tshirt.png)
 
@@ -18,7 +18,7 @@ That seemed like a good joke at that moment, but later I realized that variance 
 ```scala
 sealed trait Cool
 object Scala extends Cool // cool
-object CommunistParty // normal
+object CommunistParty // not cool
 ```
 
 Than this is perfectly possible:
